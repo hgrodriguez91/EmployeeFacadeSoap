@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bindings xmlns="http://java.sun.com/xml/ns/jaxb" if-exists="true" version="2.1">
+  <!--
+
+Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.2.11 
+Visite <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2021.11.15 a las 03:52:10 AM CST 
+
+  -->
+  <bindings xmlns:tns="http://www.testDeveloper.com/employee-ws" if-exists="true" scd="x-schema::tns">
+    <schemaBindings map="false">
+      <package name="employee_soap_client.employee.wsdl"/>
+    </schemaBindings>
+    <bindings if-exists="true" scd="tns:addEmployeeRequest">
+      <class ref="employee_soap_client.employee.wsdl.AddEmployeeRequest"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:addEmployeeResponse">
+      <class ref="employee_soap_client.employee.wsdl.AddEmployeeResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:serviceStatus">
+      <class ref="employee_soap_client.employee.wsdl.ServiceStatus"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:employeeType">
+      <class ref="employee_soap_client.employee.wsdl.EmployeeType"/>
+    </bindings>
+  </bindings>
+</bindings>

@@ -1,0 +1,15 @@
+com\wsdl\employee_soap_client\model\DateInterval.class
+employee_soap_client\employee\wsdl\ServiceStatus.class
+employee_soap_client\employee\wsdl\package-info.class
+com\wsdl\employee_soap_client\model\Employee.class
+employee_soap_client\employee\wsdl\AddEmployeeResponse.class
+com\wsdl\employee_soap_client\EmployeeSoapClientApplication.class
+employee_soap_client\employee\wsdl\ObjectFactory.class
+com\wsdl\employee_soap_client\validator\EmployeeValid.class
+employee_soap_client\employee\wsdl\EmployeeType.class
+employee_soap_client\employee\wsdl\AddEmployeeRequest.class
+com\wsdl\employee_soap_client\config\SwaggerConfig.class
+com\wsdl\employee_soap_client\config\SoapClientConfig.class
+com\wsdl\employee_soap_client\service\EmployeeSoapService.class
+com\wsdl\employee_soap_client\model\EmployeeDTO.class
+com\wsdl\employee_soap_client\controller\EmployeeController.class
